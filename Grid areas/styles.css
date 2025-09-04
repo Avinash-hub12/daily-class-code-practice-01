@@ -10,7 +10,7 @@
 header {
   grid-area: head;
   background-color: lightblue;
-  
+}
 
 nav {
   grid-area: nav;
