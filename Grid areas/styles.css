@@ -10,8 +10,7 @@
 header {
   grid-area: head;
   background-color: lightblue;
-  grid-auto-flow: dense;
-}
+  
 
 nav {
   grid-area: nav;
