@@ -1,0 +1,79 @@
+#inner {
+    background-color: rgba(red, green, blue, 0.3);
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: top-left;
+    height: 100vh;
+    /* backdrop-filter: blur(5px); */
+    /* filter: opacity(50%); */
+    
+
+}
+
+#outer {
+    background: #add8e6 url(download.jfif);
+    filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.5));
+    border: 5px solid rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    filter: opacity(100%);
+}
+
+div{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+div > div {
+    width: 150px;
+    height: 200px;
+    display: inline-block;
+    background-color: yellow;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+}
+/* Linear Gradients */
+
+div#linear > div:first-of-type {
+    background: linear-gradient(to right, red, blue);
+}
+div#linear > div:nth-of-type(2) {
+    background: linear-gradient(to left, green, yellow);
+}
+div#linear > div:nth-of-type(3) {
+    background: linear-gradient(to left, purple, pink);
+}
+
+/* Radial Gradients */
+div#radial > div:first-of-type {
+    background: radial-gradient( red, blue, green);
+}
+div#radial > div:nth-of-type(2) {
+    background: radial-gradient(closest-side, red, green,black);
+}
+div#radial > div:last-of-type {
+    background: radial-gradient(farthest-side at 40px 40px, red, yellow, blue);
+}
+/* Conic Gradients */
+div#conic > div:first-of-type {
+    background: conic-gradient(red, yellow, green, blue);
+}
+div#conic > div:nth-of-type(2) {
+    background: conic-gradient(from 90deg, red, yellow, green, blue);
+}
+div#conic > div:last-of-type {
+    background: conic-gradient(from 180deg, red, yellow, green, blue);
+}

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="practice.css">
+  <title>Survey Form</title>
+</head>
+<body>
+  <h1>Coding Ninjas Survey Form</h1>
+  <!--Create Form-->
+  <form id="form">
+    <!--Detail-->
+    <div class="form-control">
+      <label for="name" id="name"> Name</label>
+      <input type="text" id="name" placeholder="Enter Your Name" />
+    </div>
+    <br/>
+    <div class="form-control">
+      <label for="email" id="email">Email</label>
+      <input type="text" id="Email" placeholder="Enter Your Email" />
+    </div>
+    <br/>
+    <div class="form-control">
+      <label for="age" id="age"> Age</label>
+      <input type="text" id="age" placeholder="Enter Your Age" />
+    </div>
+    <br/>
+    <div class="form-control">
+      <label for="role" id="role">Which option best describes you?</label>
+      <br/>
+      <select name="role" id="role">
+        <option value="student">Student</option>
+        <option value="intern">Intern</option>
+        <option value="Professional">Professional</option>
+        <option value="other">other</option>
+      </select>
+      <br/>
+      <div class="form-control">
+        <label>Would you recommend Coding Ninjas to a friend?</label><br/>
+        <label for="recommend-1">
+          <input type="radio" id="recommend-1" name="recommend">Yes
+        </label>
+        <br/>
+        <label for="recommend-2">
+          <input type="radio" id="recommend-2" name="recommend">No
+        </label>
+        <br/>
+        <label for="recommend-3">
+          <input type="radio" id="recommend-3" name="recommend">Maybe
+        </label>
+      </div>
+      <br/>
+      <div class="form-control">
+        <label>Languages and Framework known</label>
+        <small>(Check all that apply)</small>
+        <br/>
+        <label for="input1">
+          <input type="checkbox"name="recommend">C
+        </label>
+        <label for="input2">
+          <input type="checkbox"name="recommend">C++
+        </label>
+        <label for="input3">
+          <input type="checkbox"name="recommend">C#
+        </label>
+        <label for="input4">
+          <input type="checkbox"name="recommend">Java
+        </label>
+        <label for="input5">
+          <input type="checkbox"name="recommend">Python
+        </label>
+        <label for="input6">
+          <input type="checkbox"name="recommend">JavaScript
+        </label>
+        <label for="input7">
+          <input type="checkbox"name="recommend">React
+        </label>
+        <label for="input8">
+          <input type="checkbox"name="recommend">Angular
+        </label>
+        <label for="input">
+          <input type="checkbox"name="recommend">Django
+        </label>
+        <label for="input10">
+          <input type="checkbox"name="recommend">Spring
+        </label>
+      </div>
+      <div class="form-control">
+        <label for="comment">Any Comment or Suggestion</label><br/><br/>
+        <textarea name="comment" id="comment"placeholder="Enter Your Comment here"></textarea>
+      </div><br/>
+      <!--button-->
+      <button type="submit" value="submit">Submit</button>
+    </div>
+  </form>
+</body>
+</html> 

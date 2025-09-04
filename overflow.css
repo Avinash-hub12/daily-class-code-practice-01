@@ -1,0 +1,51 @@
+div{
+    width: 150px;
+    height: 200px;
+    display: inline-block;
+    margin: 15px;
+    padding: 30px;
+    border: 2px dotted red;
+    background-color: aquamarine;
+}
+.visible{
+    overflow: visible;
+    overflow-block: auto;
+    z-index: -3;
+
+}
+.hidden{
+    overflow: hidden;
+    overflow-anchor: none;
+    overflow-y: scroll;
+    overflow-clip-margin: content-box;
+    z-index: 2;
+    writing-mode: sideways-lr;
+    margin: 110px;
+
+}
+.clip{
+    overflow: clip;
+    overflow-x: scroll;
+    float: left;
+    margin: 20px;
+    padding: 20px;
+    
+
+}
+.scroll{
+    overflow-x: scroll;
+    overflow-y: scroll;
+    text-overflow: ellipsis;
+
+}
+.auto{
+    overflow: auto;
+    overflow-block: auto;
+
+}
+.box{
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    float: left;
+}

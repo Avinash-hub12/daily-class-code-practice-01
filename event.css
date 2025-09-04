@@ -1,0 +1,140 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: lightgray;
+    color: #333;
+}
+
+header {
+    background-color: #49d47e;
+    padding: 25px 0;
+    color: white;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(91, 139, 86, 0.1)
+
+}
+
+header h1 {
+    text-align: center;
+    color: darkblue;
+    font-size: 2.5em;
+}
+header p {
+    font-size: 1.2em;
+    margin: 10px 0;
+    color: darkblue;
+    font-style: italic;
+}
+h2 {
+    color: darkseagreen;
+    text-align: center;
+    margin-top: 20px;
+}
+nav {
+    background-color: #343a40;
+    padding: 10px 0;
+    text-align: center;
+}
+nav a {
+    color: wheat;
+    text-decoration: none;
+    padding: 10px 15px;
+    margin:0px 5px;
+    border-radius: 5px;
+    text-decoration: underline;
+}
+nav a:hover {
+    background-color: lightseagreen;
+}
+section {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    background-color: whitesmoke;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+section :hover {
+    box-shadow: 0 2px 4px rgba(91, 139, 86, 0.1);
+}
+section h2 {
+    color: darkgreen;
+    margin-bottom: 15px;
+    font-size: 1.5em;
+}
+section p {
+    line-height: 1.6;
+    font-size: 1em;
+    color: #555;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 15px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+table th, table td {
+    border: 2px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+table th {
+    background-color: #49d47e;
+    color:white;
+}
+table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+ul{
+    list-style: none;
+    padding: 0;
+    
+}
+ul li {
+    margin: 12px 0;
+    padding: 10px;;
+    border: 1px solid #ddd;
+}
+ul li strong {
+    color: #007bff;
+}
+form {
+    margin: 25px auto;
+    max-width: 650px;
+}
+form label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+form input,
+form textarea,
+form button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+form input[type]="text",
+form input[type]="email" {
+    font-size: 1em;
+}
+form textarea {
+    height: 50px;
+    resize: vertical;
+}
+form button {
+    background-color: lightslategray;
+    color: #063970;
+    font-size: 1.5em;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+}
+form button:hover .stars {
+    display:block;
+    color: white;
+}
