@@ -1,20 +1,48 @@
 .box {
-    border: 2px solid black;
-    margin: 20px;
-    padding: 10px;
+    margin: auto;
+    padding: 20px;
+    margin-top: 100px;
     width: 150px;
     height: 150px;
-    display: inline-block;
-    font-size: 25px;
-    line-height: 9rem;
-    background-color: aqua;
+    border: 5px solid black;
+    border-radius: 10px 5px;
+    font-size: 24px;
+    color: white;
+    background-color: red;
     text-align: center;
-    color: black;
-    border-radius: 10px;
-    
+   
+}
 
+body:hover .box {
+    /* transform: scale(0.5, 1.5); */
+    /* transform: rotate(45deg) scale(1.2) skew(10deg, 5deg) translate(50px, 20px); */
+    /* transform: skew(30deg, 20deg) scale(1.2); */
+    /* transform: rotateX(45deg); */
+    transform: translate(-50%, 100px);
 }
-.box:hover {
-    background-color: blueviolet;
-    color: yellow;
+
+    
+/* 
+.trans {
+    transition-duration: 2s;
+    transition-property: all;
+    transition: width 1s ease-in 1s, background-color 0.5s ease-in-out;  
 }
+.ease-in {
+    transition-timing-function: ease-in;
+}
+.ease-out {
+    transition-timing-function: ease-out;
+}
+.ease-in-out {
+    transition-timing-function: ease-in-out;
+}
+.step-start {
+    transition-timing-function: step-start;
+}
+.step-end {
+    transition-timing-function: step-end;
+}
+.steps {
+    transition-timing-function: steps(5);
+} */
