@@ -1,0 +1,52 @@
+body{
+    margin-top: 60px;
+}
+body::before {
+    content: "XS: <576px";
+    font-size: 2rem;
+    font-weight: bold;
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+@media (min-width: 576px){
+    body::before {
+        content: "SM:576-767";
+        color: yellowgreen;
+        font-size: 10px;
+    }
+}
+@media (min-width: 767px){
+    body::before {
+        content: "MD:767-880";
+        color: burlywood;
+        font-size: 12px;
+    }
+}
+@media (min-width: 991px){
+    body::before {
+        content: "lG:991-1050";
+        color: blueviolet;
+        font-size: 20px;
+        padding: 10px;
+
+    }
+}
+@media (min-width: 1050px){
+    body::before {
+        content: "XL:1050-1150";
+        color: darkmagenta;
+        font-size: 20px;
+        padding: 10px;
+
+    }
+}
+@media (min-width: 1150px){
+    body::before {
+        content: "XXL:1150-1300";
+        color: darkgoldenrod;
+        font-size: 20px;
+        padding: 10px;
+
+    }
+}
