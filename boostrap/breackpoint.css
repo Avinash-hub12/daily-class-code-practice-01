@@ -50,3 +50,52 @@ body::before {
 
     }
 }
+
+@media screen and (min-width: 1300px){
+    body::before {
+        content: "XXXL:1300+";
+        color: darkcyan;
+        font-size: 20px;
+        padding: 10px;
+
+    }
+    
+}
+div1.page-item1{
+    background-color: palevioletred;
+    padding: 20px;
+}
+
+#text{
+    column-count: 3;
+    width: 90%;
+    margin: auto;
+}
+p {
+    margin: 0;
+}
+
+@media screen and (max-width: 780px) and (min-width: 680px){
+    div.page-item1{
+        
+        padding: 20px;
+
+        #text {
+            column-count: 1; {
+                color: darkolivegreen;
+            }   
+            
+        }           
+    }
+}
+@media screen and (max-width: 650px){
+    div.page-item1{
+        background-color: lightseagreen;
+        padding: 20px;
+    } 
+    #text {
+        column-count: 2; {
+            color: darkblue;
+        }
+    }
+ 
