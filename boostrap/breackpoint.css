@@ -75,7 +75,12 @@ p {
     margin: 0;
 }
 
-@media screen and (max-width: 780px) and (min-width: 680px){
+/* @media screen and (max-width: 780px) and (min-width: 680px){ */
+@media  and (680px <= width <= 780px) {
+    body{
+        background-color: lightcoral;
+    
+}
     div.page-item1{
         
         padding: 20px;
